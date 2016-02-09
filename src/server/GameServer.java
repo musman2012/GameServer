@@ -15,6 +15,7 @@ public class GameServer {
 //	DatabaseConn connectionForAuthPlayer =  new DatabaseConn("playerdb");
 
 	public static void main(String argv[]) throws Exception {
+		System.out.println("Started!!!");
 
 		System.out.println("Opening port...\n");
 
