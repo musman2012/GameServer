@@ -11,8 +11,8 @@ public class GameServer {
 
 	private static final int PORT = 1234;
 	private static int clientNo = 1;
-	DatabaseConn connectionForInstructions =  new DatabaseConn("game_environment_db");
-	DatabaseConn connectionForAuthPlayer =  new DatabaseConn("playerdb");
+//	DatabaseConn connectionForInstructions =  new DatabaseConn("game_environment_db");
+//	DatabaseConn connectionForAuthPlayer =  new DatabaseConn("playerdb");
 
 	public static void main(String argv[]) throws Exception {
 
@@ -94,12 +94,15 @@ public class GameServer {
 		
 		// Takes username of the player as arguments and returns the player current level
 		// if the player is unable to authenticate, sends -99 in return
+
+/*		
+		
 		private int authenticatePlayer(String username)
 		{
 			ResultSet rs; String password = "usman123";
 			
-			connectionForAuthPlayer.connect();
-			rs = connectionForAuthPlayer.runQuery("SELECT * FROM player where username='"+username+"';");
+//			connectionForAuthPlayer.connect();
+//			rs = connectionForAuthPlayer.runQuery("SELECT * FROM player where username='"+username+"';");
 			
 			try {
 				while(rs.next()){
@@ -119,11 +122,11 @@ public class GameServer {
 			return -99;
 		}
 		
-		
+	*/	
 		
 		public void run() {
 			ResultSet rs;
-			int playerLevel; String levelInstructions;
+			int playerLevel; String levelInstructions = "-99";
 
 			try {
 				
@@ -148,14 +151,15 @@ public class GameServer {
 				
 				System.out.println("Message received from client number " + clientNo + ": " + clientUsername);
 				System.out.println("Enter Message: ");
-				playerLevel = authenticatePlayer(clientUsername);
+	//			playerLevel = authenticatePlayer(clientUsername);
+				playerLevel = -99;
 				if(playerLevel == -99)
 					levelInstructions = "-99";
 				else
 				{
-					connectionForInstructions.connect();
-					rs = connectionForInstructions.runQuery("SELECT * FROM game_level WHERE level ='"+playerLevel+"';");
-					levelInstructions = formatInstructionSet(rs);
+//					connectionForInstructions.connect();
+//					rs = connectionForInstructions.runQuery("SELECT * FROM game_level WHERE level ='"+playerLevel+"';");
+//					levelInstructions = formatInstructionSet(rs);
 				}
 				System.out.println("Player level = = = "+playerLevel);
 				
