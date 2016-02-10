@@ -155,7 +155,7 @@ public class GameServer {
 	//			playerLevel = authenticatePlayer(clientUsername);
 				playerLevel = -99;
 				if(playerLevel == -99)
-					levelInstructions = "-99";
+					levelInstructions = "2|10|108|12|1,8,2,8";
 				else
 				{
 //					connectionForInstructions.connect();
