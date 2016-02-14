@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 //package server;
+=======
+>>>>>>> 9e6d3a48d45ae9525cb5e5102d12ec27948cd0e1
 
 import java.io.*;
 import java.net.*;
@@ -11,8 +14,8 @@ public class GameServer {
 
 	private static final int PORT = 1234;
 	private static int clientNo = 1;
-//	DatabaseConn connectionForInstructions =  new DatabaseConn("game_environment_db");
-//	DatabaseConn connectionForAuthPlayer =  new DatabaseConn("playerdb");
+	DatabaseConn connectionForInstructions =  new DatabaseConn("game_env_db");
+	DatabaseConn connectionForAuthPlayer =  new DatabaseConn("player_db");
 
 	public static void main(String argv[]) throws Exception {
 		System.out.println("Started!!!");
@@ -97,22 +100,29 @@ public class GameServer {
 		// Takes username of the player as arguments and returns the player current level
 		// if the player is unable to authenticate, sends -99 in return
 
-/*		
+		/**
+		 * 
+		 * @param username
+		 * @ Not authenticating the player at the moment,
+		 * just returning the current level without authentication.
+		 * 
+		 */
 		
 		private int authenticatePlayer(String username)
 		{
 			ResultSet rs; String password = "usman123";
 			
-//			connectionForAuthPlayer.connect();
-//			rs = connectionForAuthPlayer.runQuery("SELECT * FROM player where username='"+username+"';");
+			connectionForAuthPlayer.connect();
+			rs = connectionForAuthPlayer.runQuery("SELECT * FROM player where username='"+username+"';");
 			
 			try {
 				while(rs.next()){
 					System.out.println("Password of user is "+rs.getString(2)+"");
-					if (password.equals(rs.getString(2)))
-					{
+				//	if (password.equals(rs.getString(2)))
+				//	{
+						
 						return rs.getInt(3);
-					}
+				//	}
 					
 				}
 			} catch (SQLException e) {
@@ -124,7 +134,7 @@ public class GameServer {
 			return -99;
 		}
 		
-	*/	
+		
 		
 		public void run() {
 			ResultSet rs;
@@ -154,15 +164,19 @@ public class GameServer {
 				
 				System.out.println("Message received from client number " + clientNo + ": " + clientUsername);
 				System.out.println("Enter Message: ");
-	//			playerLevel = authenticatePlayer(clientUsername);
-				playerLevel = -99;
+				playerLevel = authenticatePlayer(clientUsername);
+//				playerLevel = -99;
 				if(playerLevel == -99)
+<<<<<<< HEAD
 					levelInstructions = "1|10|80|8|12,34,56,78";
+=======
+					levelInstructions = "-99";
+>>>>>>> 9e6d3a48d45ae9525cb5e5102d12ec27948cd0e1
 				else
 				{
-//					connectionForInstructions.connect();
-//					rs = connectionForInstructions.runQuery("SELECT * FROM game_level WHERE level ='"+playerLevel+"';");
-//					levelInstructions = formatInstructionSet(rs);
+					connectionForInstructions.connect();
+					rs = connectionForInstructions.runQuery("SELECT * FROM game_level WHERE level ='"+playerLevel+"';");
+					levelInstructions = formatInstructionSet(rs);
 				}
 				System.out.println("Player level = = = "+playerLevel);
 				
