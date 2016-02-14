@@ -1,4 +1,4 @@
-package server;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -11,9 +11,13 @@ public class DatabaseConn {
 	private Connection conn = null;
 	private Statement st = null;
 	private ResultSet rs = null;
-	private String connString = "jdbc:mysql://localhost/"; 
+	private String connString = "jdbc:mysql://gameenv.cccaikjwogxr.ap-northeast-1.rds.amazonaws.com:3306/"; 
 	
 	public DatabaseConn(String dbName) {
+		
+	//	String dbName = System.getProperty("RDS_DB_NAME");
+		
+		
 		// game_environment_db
 		connString += dbName;	// completes the connection string
 //		connect();
@@ -21,7 +25,7 @@ public class DatabaseConn {
 	
 	public void connect() {
 		try {
-			conn = DriverManager.getConnection(connString,"root","");
+			conn = DriverManager.getConnection(connString,"root","hazrat2012");
 			st = conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
 			System.out.println("Connected!!");
 		} catch (SQLException e) {
@@ -46,9 +50,11 @@ public class DatabaseConn {
 		return rs;
 	}
 	
-	public static void main(String[] args) {
+/*	public static void main(String[] args) {
 		DatabaseConn db = new DatabaseConn("playerdb");
 		db.connect();
 		db.runQuery("SELECT * FROM player WHERE username='usman123';");
 	}
+	
+	*/
 }
