@@ -1,3 +1,4 @@
+
 import java.io.*;
 import java.net.*;
 import java.sql.ResultSet;
@@ -94,7 +95,13 @@ public class GameServer {
 		// Takes username of the player as arguments and returns the player current level
 		// if the player is unable to authenticate, sends -99 in return
 
-		
+		/**
+		 * 
+		 * @param username
+		 * @ Not authenticating the player at the moment,
+		 * just returning the current level without authentication.
+		 * 
+		 */
 		
 		private int authenticatePlayer(String username)
 		{
@@ -106,10 +113,11 @@ public class GameServer {
 			try {
 				while(rs.next()){
 					System.out.println("Password of user is "+rs.getString(2)+"");
-					if (password.equals(rs.getString(2)))
-					{
+				//	if (password.equals(rs.getString(2)))
+				//	{
+						
 						return rs.getInt(3);
-					}
+				//	}
 					
 				}
 			} catch (SQLException e) {
