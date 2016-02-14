@@ -64,6 +64,7 @@ public class GameServer {
 
 				outToClient = new DataOutputStream(client.getOutputStream());
 			} catch (IOException e) {
+				
 			}
 		}
 		
@@ -128,6 +129,7 @@ public class GameServer {
 		public void run() {
 			ResultSet rs;
 			int playerLevel; String levelInstructions = "-99";
+			System.out.println("Break Point!!!");
 
 			try {
 				
@@ -155,7 +157,7 @@ public class GameServer {
 	//			playerLevel = authenticatePlayer(clientUsername);
 				playerLevel = -99;
 				if(playerLevel == -99)
-					levelInstructions = "2|10|108|12|1,8,2,8";
+					levelInstructions = "1|10|80|8|12,34,56,78";
 				else
 				{
 //					connectionForInstructions.connect();
