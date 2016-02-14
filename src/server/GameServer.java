@@ -12,6 +12,7 @@ public class GameServer {
 
 	private static ServerSocket serverSocket;
 
+
 	private static final int PORT = 1234;
 	private static int clientNo = 1;
 	DatabaseConn connectionForInstructions =  new DatabaseConn("game_env_db");
