@@ -3557,3 +3557,820 @@ Exception in thread "Thread-54" java.lang.NullPointerException
 	at dbConn.DatabaseConn.runQuery(DatabaseConn.java:59)
 	at GameServer$ClientHandler.authenticatePlayer(GameServer.java:113)
 	at GameServer$ClientHandler.run(GameServer.java:197)
+Started!!!
+Opening port...
+
+
+New client!!!
+
+
+New client!!!
+
+
+New client!!!
+
+
+New client!!!
+
+
+New client!!!
+
+
+New client!!!
+
+
+New client!!!
+
+
+New client!!!
+
+
+New client!!!
+
+
+New client!!!
+
+
+New client!!!
+
+
+New client!!!
+
+
+New client!!!
+
+
+New client!!!
+
+
+New client!!!
+
+
+New client!!!
+
+
+New client!!!
+
+
+New client!!!
+
+
+New client!!!
+
+
+New client!!!
+
+Message received from client number 1: 1test0
+Enter Message: 
+Message received from client number 3: 1test0
+Enter Message: 
+Message received from client number 4: 1test0
+Enter Message: 
+Message received from client number 2: 1test0
+Enter Message: 
+Message received from client number 5: 1test0
+Enter Message: 
+Message received from client number 6: 1test0
+Enter Message: 
+Message received from client number 8: 1test0
+Enter Message: 
+Message received from client number 7: 1test0
+Enter Message: 
+Message received from client number 9: 1test0
+Enter Message: 
+Message received from client number 10: 1test0
+Enter Message: 
+Message received from client number 12: 1test0
+Enter Message: 
+Message received from client number 13: 1test0
+Enter Message: 
+Message received from client number 11: 1test0
+Enter Message: 
+Message received from client number 14: 1test0
+Enter Message: 
+Message received from client number 16: 1test0
+Enter Message: 
+Message received from client number 15: 1test0
+Enter Message: 
+Message received from client number 17: 1test0
+Enter Message: 
+Message received from client number 18: 1test0
+Enter Message: 
+Message received from client number 19: 1test0
+Enter Message: 
+Message received from client number 20: 1test0
+Enter Message: 
+Connected!!
+Connected!!
+Connected!!
+Connected!!
+Connected!!
+Connected!!
+Connected!!
+Connected!!
+Connected!!
+Connected!!
+Connected!!
+Connected!!
+Connected!!
+Connected!!
+Connected!!
+Connected!!
+Connected!!
+Connected!!
+Connected!!
+Connected!!
+Password of user is test
+Password of user is test
+Password of user is test
+Password of user is test
+Password of user is test
+Password of user is test
+Password of user is test
+Password of user is test
+Password of user is test
+Password of user is test
+Password of user is test
+Password of user is test
+Password of user is test
+Password of user is test
+Password of user is test
+Password of user is test
+Password of user is test
+Password of user is test
+Password of user is test
+Password of user is test
+Connected!!
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Connected!!
+Connected!!
+Connected!!
+Connected!!
+Connected!!
+Connected!!
+Connected!!
+Connected!!
+Connected!!
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Connected!!
+Connected!!
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Connected!!
+Connected!!
+Connected!!
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+
+New client!!!
+
+
+New client!!!
+
+Message received from client number 21: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+
+New client!!!
+
+
+New client!!!
+
+
+New client!!!
+
+Message received from client number 22: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+
+New client!!!
+
+
+New client!!!
+
+
+New client!!!
+
+Message received from client number 23: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Message received from client number 24: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Message received from client number 25: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+
+New client!!!
+
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+
+New client!!!
+
+
+New client!!!
+
+Message received from client number 26: 1test0
+Enter Message: 
+Message received from client number 27: 1test0
+Enter Message: 
+Connected!!
+Connected!!
+Password of user is test
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Message received from client number 28: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+
+New client!!!
+
+Message received from client number 29: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Message received from client number 30: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Message received from client number 31: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Message received from client number 32: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+
+New client!!!
+
+
+New client!!!
+
+
+New client!!!
+
+Message received from client number 33: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Message received from client number 34: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Message received from client number 35: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+
+New client!!!
+
+
+New client!!!
+
+Message received from client number 36: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Message received from client number 37: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+
+New client!!!
+
+Message received from client number 38: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+
+New client!!!
+
+
+New client!!!
+
+Message received from client number 39: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Message received from client number 40: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+
+New client!!!
+
+
+New client!!!
+
+Message received from client number 41: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Message received from client number 42: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+
+New client!!!
+
+Message received from client number 43: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+
+New client!!!
+
+Message received from client number 44: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+
+New client!!!
+
+Message received from client number 45: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+
+New client!!!
+
+Message received from client number 46: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+
+New client!!!
+
+
+New client!!!
+
+Message received from client number 47: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Message received from client number 48: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+
+New client!!!
+
+
+New client!!!
+
+
+New client!!!
+
+
+New client!!!
+
+Message received from client number 49: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Message received from client number 50: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+
+New client!!!
+
+
+New client!!!
+
+Message received from client number 51: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Message received from client number 52: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Message received from client number 53: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Message received from client number 54: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+
+New client!!!
+
+Message received from client number 55: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+
+New client!!!
+
+
+New client!!!
+
+Message received from client number 56: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+
+New client!!!
+
+Message received from client number 57: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+
+New client!!!
+
+
+New client!!!
+
+Message received from client number 58: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Message received from client number 59: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+
+New client!!!
+
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+
+New client!!!
+
+Message received from client number 60: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+
+New client!!!
+
+Message received from client number 61: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+
+New client!!!
+
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Message received from client number 62: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+
+New client!!!
+
+Message received from client number 63: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Message received from client number 64: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Message received from client number 65: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+
+New client!!!
+
+Message received from client number 66: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+
+New client!!!
+
+Message received from client number 67: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+
+New client!!!
+
+Message received from client number 68: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+
+New client!!!
+
+
+New client!!!
+
+Message received from client number 69: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+
+New client!!!
+
+
+New client!!!
+
+Message received from client number 70: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Message received from client number 71: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+Message received from client number 72: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+
+New client!!!
+
+Message received from client number 73: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45
+
+New client!!!
+
+Message received from client number 74: 1test0
+Enter Message: 
+Connected!!
+Password of user is test
+Connected!!
+Player level = = = 1
+Instructions going to be sent = 1|6|80|8|18,27,36,45
+Your message: 1|6|80|8|18,27,36,45

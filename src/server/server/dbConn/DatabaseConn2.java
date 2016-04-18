@@ -18,12 +18,7 @@ public class DatabaseConn {
 		
 	//	String dbName = System.getProperty("RDS_DB_NAME");
 		
-		try {
-			Class.forName("com.mysql.jdbc.Driver");
-		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		
 		// game_environment_db
 		connString += dbName;	// completes the connection string
 //		connect();
@@ -42,22 +37,11 @@ public class DatabaseConn {
 		}
 	}
 	
-	public void executeNonQuery(String query){
-		try {
-			st.execute(query);
-			
-		} catch (SQLException e) {
-//			e.printStackTrace();
-			System.out.println("Unable to run UPDATE query ");		
-		}
-	}
-	
 	public ResultSet runQuery(String query){
 		
 		
 		try {
 			rs = st.executeQuery(query);
-
 			if(rs == null) System.out.println("null"); 
 			
 		} catch (SQLException e) {
@@ -67,11 +51,9 @@ public class DatabaseConn {
 		return rs;
 	}
 	
-/*	public static void main(String[] args) {
+	public static void main(String[] args) {
 		DatabaseConn db = new DatabaseConn("playerdb");
 		db.connect();
 		db.runQuery("SELECT * FROM player WHERE username='usman123';");
 	}
-	
-	*/
 }
